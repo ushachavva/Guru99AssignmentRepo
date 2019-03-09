@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qa.Guru99Assignment.Day3Assignment">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="day3TestCase3"/>
+        </methods>
+      </class> <!-- com.qa.Guru99Assignment.Day3Assignment -->
+      <class name="com.qa.Guru99Assignment.Day5Assignment">
+        <methods>
+          <include name="tearDown"/>
+          <include name="day5TestCase"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.Guru99Assignment.Day5Assignment -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
